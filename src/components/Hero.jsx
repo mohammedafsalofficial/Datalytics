@@ -1,5 +1,3 @@
-import ReactTyped from "react-typed";
-
 const Hero = () => {
   return (
     <div className="text-white">
@@ -8,15 +6,8 @@ const Hero = () => {
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold md:py-6">Grow with data.</h1>
         <div className="flex justify-center items-center">
           <p className="text-xl sm:text-4xl md:text-5xl font-bold py-4">
-            Fast, Flexible financing for
+            Fast, Flexible financing for BTB, BTC, SaaS
           </p>
-          <ReactTyped
-            className="text-xl sm:text-4xl md:text-5xl font-bold pl-2 md:pl-4"
-            strings={["BTB", "BTC", "SAAS"]}
-            typeSpeed={120}
-            backSpeed={140}
-            loop
-          />
         </div>
         <p className="text-xl md:text-2xl font-bold text-gray-500">
           Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms.
